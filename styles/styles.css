@@ -17,10 +17,14 @@
 }
 .p-color{
     color: rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
 }
 body{
     font-family: Inter;
+    max-width: 1140px;
+    margin: 0 auto;
 }
+
 /* Header Styles */
 header{
     max-width: 1140px;
@@ -50,9 +54,6 @@ nav ul a{
     align-items: center;
     margin: 120px 0px;
 }
-.banner-text{
-    font-size: 1.375rem;
-}
 .banner-title{
     font-size: 4rem;
     font-weight: 700;
@@ -60,4 +61,67 @@ nav ul a{
 }
 .banner-img{
     width: 100%;
+}
+/* Main styles */
+/* plant section styles */
+.plant{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.plant-title{
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+.plant-cart{
+    text-align: center;
+
+}
+.plant-name{
+    font-size: 1.375rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.plant-price{
+     font-size: 1.375rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.cart-btn{
+background-color:rgba(233, 90, 8, 1) ;
+padding: 19px 40px;
+color: white;
+width: 100%;
+border: none;
+cursor: pointer;
+}
+.plant-container{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap:30px;
+}
+.plant-img{
+    width: 100%;
+}
+/* Lover section styles */
+.lover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4.75rem;
+    margin-top: 200px;
+}
+.lover-img{
+    width: 100%;
+    position: relative;
+}
+.lover-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.badge-img{
+    width: 280px;
+    position: absolute;
+    right: -95px;
+    top: -130px;
 }
