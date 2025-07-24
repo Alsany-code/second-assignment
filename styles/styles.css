@@ -137,6 +137,7 @@ gap:30px;
 }
 .lover-img{
     position: relative;
+    width: 100%;
 }
 .lover-title{
     font-size: 3rem;
@@ -290,9 +291,6 @@ color:black
     .banner-description{
         padding: 10px;
     }
-    .banner-img{
-    width: 100%;
-    }
     .plant-container{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -303,8 +301,7 @@ color:black
         margin-left: 10px;
     }
     .lover-img{
-        text-align: center;
-        width: 100%;
+        width: auto;
     }
     .deal-grid{
         grid-template-columns: 1fr;
