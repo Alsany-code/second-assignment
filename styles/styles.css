@@ -40,9 +40,13 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
 .nav-item-container ul{
     display: flex;
     gap: 40px;
+}
+.menu-container{
+    display: flex;
 }
 nav ul li{
 list-style: none;
@@ -151,7 +155,6 @@ gap:30px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 1rem;
-  grid-auto-rows: auto;
 }
 .deal-card:nth-child(1),
 .deal-card:nth-child(2){
@@ -254,4 +257,59 @@ color:black
 .footer-img>img{
     padding: 10px;
     vertical-align: middle;
+}
+/* Media query design */
+@media screen and (max-width: 768px) {
+    .hidden{
+        display: none;
+    }
+    .nav-item-container{
+        padding: 10px 10px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .banner-description{
+        padding: 10px;
+    }
+    .banner-img{
+        text-align: end;
+    }
+    .plant-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .lover{
+        flex-direction: column;
+    }
+    .lover-title{
+        margin-left: 10px;
+    }
+    .lover-img{
+        text-align: center;
+    }
+    .deal-grid{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+.deal-card.large{
+    grid-column: auto;
+    grid-row: auto;
+}
+.offer-text{
+    font-size: 2.5rem;
+}
+.footer-container{
+    flex-direction: column;
+}
+.footer-items ul{
+    padding: 0px;
+}
+.footer-logo{
+    padding: 15px;
+}
+.footer-img{
+    margin-left: 12px;
+}
 }
