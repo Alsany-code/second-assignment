@@ -146,6 +146,9 @@ gap:30px;
     font-weight: 700;
     margin-bottom: 0;
 }
+.lover-content ul li{
+    margin-top: 1rem;
+}
 .badge-img{
     width: 280px;
     position: absolute;
