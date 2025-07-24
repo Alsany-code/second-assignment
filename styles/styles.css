@@ -12,6 +12,9 @@
   font-style: normal;
 }
 /* Shared styles */
+*{
+    box-sizing: border-box;
+}
 
 .primary-color{
     color:rgba(233, 90, 8, 1) ;
@@ -22,9 +25,14 @@
 }
 body{
     font-family: Inter;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 img{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 .margin{
 max-width: 1140px;
@@ -69,6 +77,9 @@ nav ul a{
     font-size: 4rem;
     font-weight: 700;
     margin: 0;
+}
+.banner-img{
+    width: 100%;
 }
 /* Main styles */
 /* plant section styles */
@@ -216,6 +227,7 @@ overflow: hidden;
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .input-field{
@@ -277,6 +289,9 @@ color:black
     }
     .banner-description{
         padding: 10px;
+    }
+    .banner-img{
+    width: 100%;
     }
     .plant-container{
         grid-template-columns: repeat(2, 1fr);
