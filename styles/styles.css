@@ -27,6 +27,9 @@ body{
 max-width: 1140px;
 margin: 0 auto;
 }
+img{
+    width: 100%;
+}
 
 /* Header Styles */
 header{
@@ -68,6 +71,7 @@ nav ul a{
 }
 .banner-img{
     width: 100%;
+
 }
 /* Main styles */
 /* plant section styles */
@@ -237,6 +241,7 @@ overflow: hidden;
 }
 .join{
  margin-bottom: 100px;
+
 }
 /* Footer styles */
 .footer-container{
@@ -257,6 +262,7 @@ color:black
 .footer-img>img{
     padding: 10px;
     vertical-align: middle;
+    width: auto;
 }
 /* Media query design */
 @media screen and (max-width: 768px) {
@@ -273,9 +279,10 @@ color:black
     .banner-description{
         padding: 10px;
     }
-    .banner-img{
-        text-align: end;
-    }
+    /* .banner-img{
+    width: 100%;
+    text-align: left;
+    } */
     .plant-container{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -287,15 +294,24 @@ color:black
     }
     .lover-img{
         text-align: center;
+        width: 100%;
     }
     .deal-grid{
         grid-template-columns: 1fr;
         gap: 20px;
     }
-
 .deal-card.large{
     grid-column: auto;
     grid-row: auto;
+}
+.join img{
+    width: 100%;
+}
+.join-title{
+    font-size: 2rem;
+}
+.input-field {
+    margin-bottom: 2rem;
 }
 .offer-text{
     font-size: 2.5rem;
