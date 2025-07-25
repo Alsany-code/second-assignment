@@ -264,6 +264,7 @@ overflow: hidden;
 .input-field input{
     padding: 10px;
    flex-grow: 1;
+   width: 100%;
 }
 .join{
  margin-bottom: 100px;
